@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         final VideoView videoView = (VideoView) findViewById(R.id.vv);
         //设置播放的路径
         videoView.setVideoPath("http://172.50.223.22:8080/bb.mp4");
+        /*videoView.setVideoPath("http://172.50.223.22:8080/cc.avi");*/
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mediaPlayer) {
